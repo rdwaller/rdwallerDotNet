@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+.wrapper {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+
+header {
+  background-color: rgb(25,200,0);
+  width: 100%;
+  height: 140px;
+}
+
+.navAndMain {
+  display: flex;
+  height: 90%
+}
+
+nav {
+  background-color: rgba(255, 0, 0);
+  width: 280px;
+  height: 100%;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 155, 155);
+}
+
+footer {
+  background-color: rgb(80, 70, 60);
+  height: 50px;
+}
