@@ -1,39 +1,42 @@
 html, body {
-  margin: 0;
   height: 100%;
+  margin: 0;
 }
 
 .wrapper {
-  width: 80%;
+  width: 1000px;
   height: 100%;
   margin: auto;
 }
 
 header {
-  background-color: #80C517;
-  width: 100%;
+  width: 1000px;
   height: 200px;
+  background-color: #80C517;
   display: flex;
+  border: 5px red;
+  
 }
 
 .header-logo-container {
-  background-color: rgb(99, 23, 41);
-  width: 210px;
+  width: 260px;
   height: 200px;
+  background-color: rgb(99, 23, 41);
   display: flex;
   flex-flow: column;
   justify-content: center;
 }
 
 .header-logo {
-  background-color: #002366;
-  border-radius: 80px;
   width: 160px;
   height: 160px;
+  background-color: #002366;
+  border-radius: 80px;
   margin: auto;
 }
 
 .header-text-container {
+  width: 740px;
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -44,6 +47,7 @@ header {
   font-size: 60px;
   font-weight: 700;
   font-family: Times;
+  margin: auto;
 }
 
 .header-subtitle {
@@ -53,29 +57,31 @@ header {
 }
 
 .navAndMain {
+  width: 1000px;
+  height: 90%;
   display: flex;
-  height: 90%
 }
 
 nav {
-  background-color: #F1C550;
   width: 260px;
   height: 100%;
+  background-color: #F1C550;
   display: flex;
+  padding-top: 20px;
   flex-flow: column;
 }
 
 .nav-item {
-  padding-top: 20px;
+  padding: 20px 0 0 30px;
   font-size: 15px;
   font-family: Times;
-  text-align: center;
 }
 
 .main {
-  width: 100%;
+  width: 740px;
   height: 100%;
   background-color: #F3E6C7;
+  padding-top: 20px;
 }
 
 .main .introduction {
@@ -83,9 +89,11 @@ nav {
 }
 
 footer {
+  width: 1000px;
+  height: 50px;
   background-color: #808080;
   font-family: Times;
-  height: 50px;
+  padding-top: 10px;
   display: flex;
   justify-content: center;
 }
